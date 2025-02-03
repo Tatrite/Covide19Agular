@@ -1,0 +1,42 @@
+.hero {
+  display: flex; /* Utilisation de Flexbox pour aligner les enfants horizontalement */
+  align-items: center; /* Centrer verticalement */
+  justify-content: space-between; /* Ajouter de l'espace entre le texte et l'image */
+  padding: 2rem;
+  background-color: #F0E9F8; /* Couleur de fond */
+}
+
+.text {
+  flex: 1; /* Le texte occupe une partie de l'espace */
+  max-width: 50%; /* Limiter la largeur à 50% */
+}
+
+.text h1 {
+  color: #5a189a;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  margin-bottom: 1rem;
+}
+
+.text button {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.image {
+  flex: 1; /* L'image occupe une autre partie de l'espace */
+  display: flex;
+  justify-content: center; /* Centrer horizontalement dans sa zone */
+}
+
+.image img {
+  max-width: 100%; /* Assurer que l'image ne dépasse pas sa zone */
+  height: auto; /* Garder les proportions de l'image */
+  border-radius: 10px; /* Coins arrondis pour un style esthétique */
+}

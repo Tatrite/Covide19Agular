@@ -1,0 +1,16 @@
+.contact {
+    display: flex; /* Utilisation de Flexbox pour aligner les enfants horizontalement */
+    align-items: center; /* Centrer verticalement */
+    justify-content: space-between; /* Ajouter de l'espace entre le texte et l'image */
+    padding: 2rem;
+    background-color: #F0E9F8; /* Couleur de fond */
+  }
+  
+  .text {
+    flex: 1; /* Le texte occupe une partie de l'espace */
+  }
+  
+  .text h1 {
+    color: #5a189a;
+    margin-bottom: 1rem;
+  }
